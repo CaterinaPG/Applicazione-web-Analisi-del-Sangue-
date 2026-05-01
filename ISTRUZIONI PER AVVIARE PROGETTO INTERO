@@ -1,0 +1,14 @@
+ISTRUZIONI PER AVVIARE L'INTERO PROGETTO
+1 aprire Visual Studio, cliccare su file, open folder e selezionare la cartella del Progetto.
+2 avviare separatamente Backend e Frontend, per cui aprire 2 powershell (una su cui avviare il Backend e l'altra su cui avvisare il Frontend)
+3 nella prima powershell assicurarsi di porsi nella cartella Backend, usando il comando cd Backend
+4 assicurarsi di installare i pacchetti per il funzionamento del Backend, usando il comando npm install 
+ATTENZIONE: npm install va fatto solo la prima volta che si avvia il Progetto, per le volte successive non è più necessario
+5 avviare il server con il comando node server.js
+6 nella seconda powershell assicurarsi di porsi nella cartella Frontend, usando il comando cd Frontend
+7 assicurarsi di installare i pacchetti per il funzionamento del Frontend, usando il comando npm install 
+ATTENZIONE: npm install va fatto solo la prima volta che si avvia il Progetto, per le volte successive non è più necessario 
+8 avviare il frontend con il comando npm run dev
+9 cliccare sul primo URL e utilizzare il sito web sul browser
+
+10 per interrompere l'esecuzione del server e del Frontend, andare singolarmente sulle 2 powershell e fare ctrl+C
